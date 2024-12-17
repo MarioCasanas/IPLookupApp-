@@ -29,9 +29,6 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-
-// TOKEN Github: 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
-
     try {
         var r = new sn_ws.RESTMessageV2('x_400959_iplookup.IPInfo', 'GetIPInfo');
         r.setStringParameterNoEscape('ipaddress', current.ip_address);
@@ -82,7 +79,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e7482b90836e5210c2eef855eeaad3f1</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>Populate IP Address City</sys_name>
         <sys_overrides/>
         <sys_package display_value="IPLookup" source="x_400959_iplookup">30e00fdc836a5210c2eef855eeaad346</sys_package>
@@ -90,7 +87,7 @@
         <sys_scope display_value="IPLookup">30e00fdc836a5210c2eef855eeaad346</sys_scope>
         <sys_update_name>sys_script_e7482b90836e5210c2eef855eeaad3f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-17 03:38:33</sys_updated_on>
+        <sys_updated_on>2024-12-17 20:53:12</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
